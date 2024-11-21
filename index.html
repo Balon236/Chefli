@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefLi</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #first-section{
+        width: 100%;
+        height: 100vh;
+        background-color: #05346d;
+    }
+
+    /*
+    How the navigation bar is style 
+    procedures 
+    */
+    #nav{
+        height: 15px;
+        margin-left: 250px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row; /*horizontal line*/
+        gap: 20px;
+        color: white;
+        font-weight: 800;
+        font-size: 8px;  
+        padding-top: 20px;
+    }
+    li{
+        list-style: none;
+    }
+    #general-text{
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    #first-paragraph{
+        font-size: 20px;
+        color: white;
+        font-weight: 800;
+    }
+    #secnd-paragraph{
+font-size: 12px;
+padding-left: 20px;
+color: white;
+font-weight: 600;
+    }
+    span{
+      color: rgb(231, 12, 231);
+      font-weight: 800;
+    }
+
+   #buttons-section{
+    height: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   }
+   #btn{
+background-color: #F90CB2;
+width: 120px;
+height: 18px;
+color: white;
+font-weight: 800;
+border-radius: 10px;
+font-size: 11px;
+   }
+   #next-section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+   }
+   #heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+   
+   }
+   #display-items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 70px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+  
+   }
+   #items-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+   }
+   #food-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(190, 187, 187);
+   }
+   #price, #buy-now-text, #number{
+    font-size: 7px;
+   }
+   #price{
+    color: blue;
+   }
+   #buy-now-text{
+    color: rgb(245, 52, 245);
+   }
+   #number{
+    opacity: .8;
+   }
+   #footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #07418A;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   }
+   h1{
+color: white;
+font-weight: 800;
+font-size: 10px;
+padding-top: 20px;
+   }
+   #contact{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   #contact-text{
+    color: rgb(3, 3, 53);
+    font-size: 10px;
+    font-weight: 800;
+   
+   }
+   #box-below{
+    background-color: #07418A;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+   }
+   h2{
+    color: white;
+    font-weight: 800;
+    font-size: 8px;
+    padding-top: 10px;
+   }
+   
+   #span-footer{
+    color: white;
+    font-weight: 800;
+   padding-left: 10px;
+   }
+   #one{
+margin-top: 10px;
+   }
+</style>
+<body>
+    <!--this is the first section of the web page with the blue background-->
+    <div id="first-section">
+        <!--next section contains the navigation bar-->
+        <div id="nav">
+        <ul>
+            
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+        </ul>
+        </div>
+
+        <div id="general-text">
+            <p id="first-paragraph"> <span>Eating</span> is solving your <span>Problems</span>twice</p>
+            <p id="secnd-paragraph">At <span>Ms Resturant</span> we give you what your <span>sockist</span>deserve</p>
+        </div>
+
+        <!--this are the buttons that redirect to other sections-->
+  <div id="buttons-section">
+    <div id="btn">Our Foods</div>
+    <div id="btn">Our Chefs</div>
+  </div>
+
+        
+    </div>
+
+      <!--the next section of the page that has the title and display the food items-->
+<div id="next-section">
+    <div id="heading">Best of Our Dishes</div>
+    <div id="display-items">
+        <div id="items-display">
+            <div id="food-box"></div>
+            <div id="price">1000frs</div>
+            <div id="buy-now-text">Buy Now</div>
+            <div id="number">677656544</div>
+        </div>
+        <div id="items-display">
+            <div id="food-box"></div>
+            <div id="price">1000frs</div>
+            <div id="buy-now-text">Buy Now</div>
+            <div id="number">677656544</div>
+        </div>
+
+        <div id="items-display">
+            <div id="food-box"></div>
+            <div id="price">1000frs</div>
+            <div id="buy-now-text">Buy Now</div>
+            <div id="number">677656544</div>
+        </div>
+        <div id="items-display">
+            <div id="food-box"></div>
+            <div id="price">1000frs</div>
+            <div id="buy-now-text">Buy Now</div>
+            <div id="number">677656544</div>
+        </div>
+
+
+</div>
+
+<div id="display-items">
+    <div id="items-display">
+        <div id="food-box"></div>
+        <div id="price">1000frs</div>
+        <div id="buy-now-text">Buy Now</div>
+        <div id="number">677656544</div>
+    </div>
+    <div id="items-display">
+        <div id="food-box"></div>
+        <div id="price">1000frs</div>
+        <div id="buy-now-text">Buy Now</div>
+        <div id="number">677656544</div>
+    </div>
+
+    <div id="items-display">
+        <div id="food-box"></div>
+        <div id="price">1000frs</div>
+        <div id="buy-now-text">Buy Now</div>
+        <div id="number">677656544</div>
+    </div>
+    <div id="items-display">
+        <div id="food-box"></div>
+        <div id="price">1000frs</div>
+        <div id="buy-now-text">Buy Now</div>
+        <div id="number">677656544</div>
+    </div>
+
+
+</div>
+
+</div>
+
+
+<div id="contact">
+    <h1 id="contact-text">Want to Speak With Our Team?</h1>
+    <div id="box-below">
+       <div id="one"> <h2>Watsapp <span id="span-footer">655 443 223 222</span></h2></div>
+       <div id="one1"> <h2>Call <span id="span-footer">655 443 223 222</span></h2></div>
+
+    </div>
+
+</div>
+
+<div id="footer">
+    <h1>All right reserve balon236 2024</h1>
+</div>
+
+
+
+
+
+</body>
+</html>
